@@ -24,6 +24,11 @@
   color: white;
 }
 
+#footer {
+  position: sticky;
+  z-index: -1;
+}
+
 .App-link {
   color: #61dafb;
 }
