@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css';
+import '../src/components/pages/styles.css'
 
 import PageWrapper from "./components/pageWrapper/PageWrapper";
 import Home from "./components/pages/Home";

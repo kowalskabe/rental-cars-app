@@ -1,8 +1,12 @@
 import React from 'react';
-
+import Banner from "../pages/Banner"
+import MainContent from "./MainContent";
 function Home(){
     return(
-        <div className="container">Home</div>
+        <>
+            <Banner />
+            <MainContent/>
+        </>
     )
 }
 export default Home;
